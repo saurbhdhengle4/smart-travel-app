@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "489895926371",
+    "project_id": "smart-travel-companion-dc236",
+    "storage_bucket": "smart-travel-companion-dc236.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:489895926371:android:72485dc483b176c1e43656",
+        "android_client_info": {
+          "package_name": "com.example.smart_travel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "489895926371-lj4brjr15a2tet42rtpi73da118rjjvd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smart_travel",
+            "certificate_hash": "7a7238cc22be25ec33b6acbd9b42e8ffa18c175c"
+          }
+        },
+        {
+          "client_id": "489895926371-p9gfqtr5kt7hg4m6g62pr2r85eg0qs2u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAfyL-hReq5z8--tX-EeqMB-0oU6krXm0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "489895926371-p9gfqtr5kt7hg4m6g62pr2r85eg0qs2u.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "489895926371-ck39liudal0nn6b9qcjtb12j33ea2pvh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.smart"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
