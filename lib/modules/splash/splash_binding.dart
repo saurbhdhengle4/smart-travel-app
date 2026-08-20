@@ -6,6 +6,6 @@ class SplashBinding extends Bindings {
   @override
   void dependencies() {
     Get.lazyPut(() => LocalStorageService());
-    Get.lazyPut(() => SplashController());
+    Get.put( SplashController());
   }
 }

@@ -1,4 +1,6 @@
 import 'package:get/get.dart';
+import 'package:smart_travel/modules/documents/documents_binding.dart';
+import 'package:smart_travel/modules/documents/documents_view.dart';
 import 'package:smart_travel/modules/map/map_binding.dart';
 import 'package:smart_travel/modules/map/map_view.dart';
 import 'package:smart_travel/modules/splash/splash_binding.dart';
@@ -20,13 +22,17 @@ class AppPages {
       page: () => const LoginView(),
       binding: AuthBinding(),
     ),
-   GetPage(
+    GetPage(
       name: AppRoutes.map,
       page: () => const MapView(),
       binding: MapBinding(),
     ),
+    GetPage(
+      name: AppRoutes.documents,
+      page: () => const DocumentsView(),
+      binding: DocumentsBinding(),
+    ),
 
-    
     // Home, Map and Documents pages are added in Day 3 and Day 4
   ];
 }
